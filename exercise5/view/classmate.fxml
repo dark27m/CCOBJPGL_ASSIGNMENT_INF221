@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="693.0" style="-fx-background-color: #AEC6CF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClassmateController">
+   <children>
+      <ImageView fitHeight="169.0" fitWidth="144.0" layoutX="282.0" layoutY="45.0">
+         <image>
+            <Image url="@../../../../Downloads/bea.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="MyPic1" fitHeight="175.0" fitWidth="154.0" layoutX="68.0" layoutY="42.0">
+         <image>
+            <Image url="@../../../../Downloads/tin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="175.0" fitWidth="144.0" layoutX="484.0" layoutY="42.0">
+         <image>
+            <Image url="@../../../../Downloads/mon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="175.0" fitWidth="154.0" layoutX="159.0" layoutY="284.0">
+         <image>
+            <Image url="@../../../../Downloads/moy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="175.0" fitWidth="154.0" layoutX="391.0" layoutY="284.0">
+         <image>
+            <Image url="@../../../../Downloads/josh.png" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="155.0" layoutY="236.0" prefHeight="40.0" prefWidth="75.0" />
+    <Button fx:id="MyButton1" layoutX="107.0" layoutY="236.0" minWidth="72.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #F8C8DC;" text="Justin" />
+      <Button fx:id="MyButton2" layoutX="317.0" layoutY="236.0" minWidth="72.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #F8C8DC;" text="Bea" />
+      <Button fx:id="MyButton3" layoutX="519.0" layoutY="236.0" minWidth="72.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #F8C8DC;" text="Simmone" />
+      <Button fx:id="MyButton4" layoutX="199.0" layoutY="471.0" minWidth="72.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #F8C8DC;" text="Timmothy" />
+      <Button fx:id="MyButton5" layoutX="431.0" layoutY="471.0" minWidth="72.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #F8C8DC;" text="Josh" />
+   </children>
+</AnchorPane>
